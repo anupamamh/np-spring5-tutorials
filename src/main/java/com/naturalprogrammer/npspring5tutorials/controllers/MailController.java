@@ -18,7 +18,7 @@ public class MailController {
 
 	@RequestMapping("/mail")
 	public String mail() throws MessagingException {
-		mailSender.send("rajreethi123@gmail.com", "A Test mail ", "Body Of The Test Mail");
+		mailSender.send("anupama.guggari@gmail.com", "A Test mail ", "Body Of The Test Mail");
 		return "Mail Sent";
 	}
 }
